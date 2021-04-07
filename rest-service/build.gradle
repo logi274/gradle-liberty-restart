@@ -1,0 +1,6 @@
+apply plugin: 'war'
+
+dependencies {
+    providedCompile 'jakarta.platform:jakarta.jakartaee-api:8.0.0'
+    providedCompile project(':ejb-service')
+}

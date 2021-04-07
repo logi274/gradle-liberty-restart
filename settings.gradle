@@ -1,0 +1,3 @@
+rootProject.name = 'liberty-gradle'
+include 'rest-service'
+include 'ejb-service'

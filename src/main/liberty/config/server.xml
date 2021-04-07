@@ -1,0 +1,13 @@
+<server description="Sample Liberty server">
+
+    <featureManager>
+        <feature>jaxrs-2.1</feature>
+        <feature>ejbLite-3.2</feature>
+        <feature>cdi-2.0</feature>
+    </featureManager>
+
+    <application name="liberty-multimodule-app" location="liberty-gradle.ear" type="ear"/>
+
+    <httpEndpoint host="*" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint" />
+
+</server>
